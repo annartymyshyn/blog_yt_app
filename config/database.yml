@@ -81,8 +81,9 @@ test:
 production:
   primary: &primary_production
     <<: *default
-    url: <%= ENV['DATABASE_URL'] %>
-    sslmode: require
+    database: blog_yt_app_production
+    username: blog_yt_app
+    password: <%= ENV["BLOG_YT_APP_DATABASE_PASSWORD"] %>
   cache:
     <<: *primary_production
     database: blog_yt_app_production_cache
