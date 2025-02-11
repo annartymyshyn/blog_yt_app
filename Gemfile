@@ -66,4 +66,4 @@ gem "devise", "~> 4.9"
 
 gem "tailwindcss-rails", "~> 4.0"
 gem "net-smtp", "0.5.0"
-gem 'dotenv-rails', groups: [:development, :test]
+gem "dotenv-rails", groups: [ :development, :test ]
