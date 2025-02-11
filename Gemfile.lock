@@ -382,6 +382,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   kamal
+  net-smtp (= 0.5.0)
   pg (~> 1.1)
   propshaft
   puma (>= 5.0)
